@@ -25,13 +25,13 @@ print("Hello, World!")
 print("Hello, World!")
 print("Hello, World!")
 print("Hello, World!")
-print("Hello, World!") // [!code ++]
-print("Hello, World!") // [!code --]
+print("Hello, World!") # [!code ++]
+print("Hello, World!") # [!code --]
 while True:
     print("Hello, World!")
 ```
 ```python
-print("Hello, World!") // [!code focus]
+print("Hello, World!") # [!code focus]
 print("Hello, World!")
 ```
 
