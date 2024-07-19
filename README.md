@@ -6,7 +6,9 @@
 
 [エッセイを見る→](/essays)
 
-$$ \frac{1}{2} $$
+$$ 
+L = \frac{1}{2} \rho v^2 S C_L
+$$
 
 ```python
 print("Hello, World!")
