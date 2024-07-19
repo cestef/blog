@@ -18,5 +18,15 @@ print("Hello, World!")
 ```
 ```python {1}
 print("Hello, World!")
+print("Hello, World!")
+print("Hello, World!")
+print("Hello, World!")
+print("Hello, World!")
+print("Hello, World!")
+print("Hello, World!")
+print("Hello, World!")
+print("Hello, World!")
+print("Hello, World!")
+print("Hello, World!")
 ```
 
