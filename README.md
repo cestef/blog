@@ -1,3 +1,7 @@
+---
+title: "Home"
+---
+
 # ３０日日本語を書き続ける
 
 毎朝、エッセイを書いています。
@@ -18,7 +22,7 @@ print("Hello, World!")
 ```
 ```python {1}
 # [!code word:True]
-print("Hello, World!")
+print("Hello, World!") # [!code highlight]
 print("Hello, World!")
 print("Hello, World!")
 print("Hello, World!")
