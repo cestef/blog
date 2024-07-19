@@ -17,6 +17,7 @@ print("Hello, World!")
 print("Hello, World!")
 ```
 ```python {1}
+# [!code word:True]
 print("Hello, World!")
 print("Hello, World!")
 print("Hello, World!")
