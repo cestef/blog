@@ -13,3 +13,10 @@ $$
 ```python
 print("Hello, World!")
 ```
+```python copy
+print("Hello, World!")
+```
+```python {1}
+print("Hello, World!")
+```
+
