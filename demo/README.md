@@ -2,4 +2,4 @@
 
 This is a demo page, wow!
 
-[Another one ???](./another)
+[Another one ???](demo/another)
