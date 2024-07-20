@@ -22,3 +22,4 @@ print("Hello, World!") # [!code focus]
 print("Hello, World!")
 ```
 
+[Another demo page](./demo)
