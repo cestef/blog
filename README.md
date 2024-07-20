@@ -2,33 +2,15 @@
 title: "Home"
 ---
 
-# ３０日日本語を書き続ける
-
-毎朝、エッセイを書いています。
-
-注意：言葉や文法は間違えられるから、コピーしないでください。
-
-[エッセイを見る→](/essays)
+# This is a demo page, wow!
 
 $$ 
 L = \frac{1}{2} \rho v^2 S C_L
 $$
 
-```python
-print("Hello, World!")
-```
-```python copy
-print("Hello, World!")
-```
 ```python {1}
 # [!code word:True]
 print("Hello, World!") # [!code highlight]
-print("Hello, World!")
-print("Hello, World!")
-print("Hello, World!")
-print("Hello, World!")
-print("Hello, World!")
-print("Hello, World!")
 print("Hello, World!")
 print("Hello, World!") # [!code ++]
 print("Hello, World!") # [!code --]
