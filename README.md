@@ -8,7 +8,7 @@ $$
 L = \frac{1}{2} \rho v^2 S C_L
 $$
 
-```python {1}
+```python {1} /True/
 print("Hello, World!")
 print("Hello, World!")
 print("Hello, World!") # [!code ++]
