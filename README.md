@@ -1,24 +1,10 @@
+# Welcome to my blog !
+
+Sometimes, I like to share my thoughts, ideas or projects on this blog. Maybe you’ll find something useful here !
+
 ---
-title: "Home"
----
 
-# This is a demo page, wow!
+## Posts
 
-$$ 
-L = \frac{1}{2} \rho v^2 S C_L
-$$
-
-```python {1} /True/
-print("Hello, World!")
-print("Hello, World!")
-print("Hello, World!") # [!code ++]
-print("Hello, World!") # [!code --]
-while True:
-    print("Hello, World!")
-```
-```python showLineNumbers
-print("Hello, World!")
-print("Hello, World!")
-```
-
-[Another demo page](demo)
+- ### [Scanning the web efficiently](./posts/rwalk.md)
+- ### [Solving the Traefik Job application challenge](./posts/traefik-ctf.md)
