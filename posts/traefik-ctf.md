@@ -11,7 +11,7 @@ even featuring [Kubernetes](https://kubernetes.io/) Ingress support, or [Let's E
 By digging a little more on their website, I found a [developer job application form](https://traefik.io/careers/developers-systems-engineers).
 I was surprised to see that there was no traditional CV to send, but a docker command to run.
 
-[![Traefik docker command](/images/traefik-docker.png)](/images/traefik-docker.png)
+[![Traefik docker command](../images/traefik-docker.png)](../images/traefik-docker.png)
 
 ## The challenge
 
@@ -326,7 +326,7 @@ kubectl port-forward deployments/traefik-deployment 8080:8080
 
 The HTTP Service for our pod is effectively listed in the dashboard:
 
-[![Traefik dashboard](/images/traefik-dashboard.png)](/images/traefik-dashboard.png)
+[![Traefik dashboard](../images/traefik-dashboard.png)](../images/traefik-dashboard.png)
 
 Forwarding the proxy port to something fancy:
 
@@ -423,7 +423,7 @@ kubectl create secret generic helmsman --from-literal=helmsman=dcc9c530767c10276
 
 Restarting the pod, port-forwarding the proxy, and visiting [`localhost:1337`](http://localhost:1337) again, we now get a nice form to fill and submit.
 
-[![Traefik form](/images/traefik-form.png)](/images/traefik-form.png)
+[![Traefik form](../images/traefik-form.png)](../images/traefik-form.png)
 
 ## Conclusion
 

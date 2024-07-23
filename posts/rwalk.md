@@ -11,7 +11,7 @@ This is a very long and boring process, and I felt like the existing tools were 
 
 I decided to write my own tool to scan the web efficiently, and I called it [`rwalk`](https://github.com/cestef/rwalk).
 
-[![rwalk](/images/rwalk.png)](/images/rwalk.png)
+[![rwalk](../images/rwalk.png)](../images/rwalk.png)
 
 I find it very important to have a good understanding of the inner workings of the tools we use, so this article will explain both the process of writing the tool and the features it offers.
 
@@ -565,7 +565,7 @@ After a few minutes, we get the following:
 
 We now have a tool that is able to scan a target efficiently, approaching **2000** requests per second on a regular WiFi connection.
 
-[![rwalk](/images/rwalk.gif)](/images/rwalk.gif)
+[![rwalk](../images/rwalk.gif)](../images/rwalk.gif)
 
 ### Test it out yourself
 
