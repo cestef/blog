@@ -43,7 +43,7 @@ with libraries like [`clap`](https://crates.io/crates/clap) and [`reqwest`](http
 
 The first functionality I needed was to scan a target recursively. This was achieved by using a simple tree structure.
 
-```rust copy filename="tree.rs"
+```rust copy title="tree.rs"
 impl<T> Tree<T> {
     /// Insert a new data into the tree, at the root if no parent provided.
     pub fn insert(
@@ -87,7 +87,7 @@ impl<T> Tree<T> {
 }
 ```
 
-```rust copy filename="single_threaded.rs"
+```rust copy title="single_threaded.rs"
 while depth < max_depth {
     let previous_nodes = tree.get_nodes_at_depth(depth);
     // Iterate over the previous nodes
@@ -123,7 +123,7 @@ Such an approach requires a bit of refactoring, but Rust makes it easy to do so 
 
 Chunks of the wordlist are distributed to different threads, and the results are collected at the end.
 
-```rust copy filename="multi_threaded.rs" {1,10,18,31-33}
+```rust copy title="multi_threaded.rs" {1,10,18,31-33}
 let chunks = wordlist.chunks(wordlist.len() / num_threads);
 
 while depth < max_depth {
@@ -184,7 +184,7 @@ Basic filters include:
 
 I added those to `rwalk` and made them configurable via the command line.
 
-```rust copy filename="filters.rs" {3,17,19}
+```rust copy title="filters.rs" {3,17,19}
 let mut outs = vec![];
 for filter in filters {
     let negated = filter.0.starts_with('!');
@@ -382,7 +382,7 @@ The separation between these modes is due to the fact that they rely on differen
 
 The permutation scanning mode is based on the [`itertools`](https://crates.io/crates/itertools) crate's `.permutations(){:rust}` method.
 
-```rust copy filename="generate_urls.rs" {2-17}
+```rust copy title="generate_urls.rs" {2-17}
 if opts.permutations {
     let token_count = self
         .url
