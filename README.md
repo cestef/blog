@@ -1,4 +1,8 @@
-# Welcome to my blog !
+---
+image: /images/opcodes-gameboy.png
+description: "Welcome to my blog ! Sometimes, I like to share my thoughts, ideas or projects on this blog. Maybe you'll find something useful here !"
+title: "Welcome to my blog !"
+---
 
 Sometimes, I like to share my thoughts, ideas or projects on this blog. Maybe you’ll find something useful here !
 
